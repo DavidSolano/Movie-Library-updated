@@ -6044,26 +6044,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\School Account\\.nuget\\packages\\": {}
+    "/Users/davidsolano/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\School Account\\RiderProjects\\Movie-Library-updated\\Movie Library updated.csproj",
+      "projectUniqueName": "/Users/davidsolano/RiderProjects/Movie-Library-updated/Movie Library updated.csproj",
       "projectName": "Movie Library updated",
-      "projectPath": "C:\\Users\\School Account\\RiderProjects\\Movie-Library-updated\\Movie Library updated.csproj",
-      "packagesPath": "C:\\Users\\School Account\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\School Account\\RiderProjects\\Movie-Library-updated\\obj\\",
+      "projectPath": "/Users/davidsolano/RiderProjects/Movie-Library-updated/Movie Library updated.csproj",
+      "packagesPath": "/Users/davidsolano/.nuget/packages/",
+      "outputPath": "/Users/davidsolano/RiderProjects/Movie-Library-updated/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\School Account\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/davidsolano/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6124,7 +6122,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
       }
     }
   }

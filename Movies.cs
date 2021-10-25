@@ -16,7 +16,7 @@ namespace Movie_Library_updated
         [Name("genres")] public string Genre { get; set; }
         public void Read()
         {
-            using (var streamReader = new StreamReader(@"Files\\movies.csv"))
+            using (var streamReader = new StreamReader(@"Files//movies.csv"))
             {
                 using (var csvReader = new CsvReader(streamReader, CultureInfo.InvariantCulture))
                 {
@@ -69,7 +69,7 @@ namespace Movie_Library_updated
 
         public override string Display()
         {
-            return $"{ID} {Title} {Genre}";
+            return $"ID: {ID}, Title: {Title}, Genre: {Genre}";
         }
     }
 }

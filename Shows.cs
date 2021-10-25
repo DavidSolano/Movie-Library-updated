@@ -18,7 +18,7 @@ namespace Movie_Library_updated
 
         public void ReadShows()
         {
-            using (var streamReader = new StreamReader("Files\\shows.csv"))
+            using (var streamReader = new StreamReader("Files//shows.csv"))
             {
                 using (var csvReader = new CsvReader(streamReader, CultureInfo.InvariantCulture))
                 {
@@ -29,7 +29,7 @@ namespace Movie_Library_updated
 
         public override string Display()
         {
-            return $"{Title} {Season} {Episode} {Writers}";
+            return $"Title: {Title}, Season: {Season}, Episode: {Episode}, Writers: {Writers}";
         }
     }
 }
