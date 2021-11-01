@@ -14,7 +14,7 @@ namespace Movie_Library_updated
         
         [Name("videoFormat")] public string Format { get; set; }
         [Name("length")] public int Length { get; set; }
-        [Name("regions")] public int Regions { get; set; }
+        [Name("regions")] public string Regions { get; set; }
 
         public void ReadVideos()
         {
